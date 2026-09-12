@@ -1,3 +1,4 @@
 [tools]
 claude = "latest"
 gh = "latest"
+prek = "latest"
