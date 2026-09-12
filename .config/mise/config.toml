@@ -1,4 +1,5 @@
 [tools]
+betterleaks = "latest"
 claude = "latest"
 gh = "latest"
 prek = "latest"
