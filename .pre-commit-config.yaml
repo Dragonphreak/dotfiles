@@ -20,3 +20,19 @@ repos:
     rev: v1.8.1
     hooks:
       - id: betterleaks-system
+  - repo: https://github.com/rhysd/actionlint
+    rev: v1.7.12
+    hooks:
+      - id: actionlint-system
+  - repo: local
+    hooks:
+      - id: taplo-format
+        name: taplo format check
+        entry: taplo format --check
+        language: system
+        types: [toml]
+      - id: taplo-lint
+        name: taplo lint
+        entry: taplo lint
+        language: system
+        types: [toml]

@@ -1,5 +1,7 @@
 [tools]
+actionlint = "latest"
 betterleaks = "latest"
 claude = "latest"
 gh = "latest"
 prek = "latest"
+taplo = "latest"
