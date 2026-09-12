@@ -1,5 +1,6 @@
 [tools]
 actionlint = "latest"
+worktrunk = "latest"
 betterleaks = "latest"
 claude = "latest"
 gh = "latest"
